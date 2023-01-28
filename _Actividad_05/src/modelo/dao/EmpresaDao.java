@@ -10,9 +10,9 @@ public interface EmpresaDao {
 	
 		boolean alta(Empleado empleado);
 		boolean eliminarUno(Empleado empleado);
-		boolean modificarUno(Empleado empleado);
+		Empleado modificarUno(Empleado empleado);
 		Empleado buscarUno(int empleado);
-		Empleado masaSalarial(double empleado);
+		double masaSalarial();
 		
 		
 		ArrayList<Empleado> buscarPorSexo(char sexo);
@@ -20,7 +20,7 @@ public interface EmpresaDao {
 		ArrayList<Empleado> buscarPorDepartamento(int idDepar);
 		ArrayList<Empleado> buscarPorTrabajo (String idTrabajo);
 		ArrayList<Empleado> buscarPorPais (String pais);
-		
+	
 		
 		
 		
