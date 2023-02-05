@@ -4,6 +4,9 @@ import java.util.Objects;
 
 public class Empleado {
 	
+	
+	// creamos la clase empleado y en ella tienen que haber los atributos trabajo y departamento para que
+	//queden referenciadas las clases pertinentes
 	private int idEmpleado;
 	private String nombre, apellidos, email;
 	private char genero;

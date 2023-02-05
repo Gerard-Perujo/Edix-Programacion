@@ -4,6 +4,9 @@ import java.util.Objects;
 
 public class Departamento {
 	
+	
+	// creamos la clase departamento en ella tenemos que crear el atributo localidad para que quede
+	//referenciado con la clase localidad
 	private int idDepar;
 	private String descripcion;
 	private Localidad localidad;

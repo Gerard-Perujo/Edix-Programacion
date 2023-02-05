@@ -4,8 +4,12 @@ import java.util.Objects;
 
 public class Trabajo {
 	
+	
+	//creamos la clase trabajo
+	
 	private String idTrabajo, descripcion;
 	private double minSalario, maxSalario;
+	
 	
 	
 	
@@ -84,6 +88,10 @@ public class Trabajo {
 		return idTrabajo == other.idTrabajo;
 		
 		}
+
+
+	
+	
 	
 	
 	

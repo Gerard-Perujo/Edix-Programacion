@@ -6,12 +6,12 @@ import modelo.javabeans.Empleado;
 
 public interface EmpresaDao {
 
-	// creamos todos los metodos abstractos que nos piden en la interface//
+	// creamos todos los metodos abstractos que nos piden en la interface de la clase empleado//
 	
 		boolean alta(Empleado empleado);
 		boolean eliminarUno(Empleado empleado);
-		Empleado modificarUno(Empleado empleado);
-		Empleado buscarUno(int empleado);
+		boolean modificarUno(Empleado empleado);
+		Empleado buscarUno(int idEmpleado);
 		double masaSalarial();
 		
 		
